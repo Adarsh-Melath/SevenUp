@@ -4,7 +4,8 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Store</title>
+  <title>STORES</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
@@ -17,9 +18,12 @@
   <link rel="stylesheet" href="/css/heading_banners.css">
 </head>
 
-<body>
-  <nav class="navbar navbar-expand-lg ps-3">
-    <div class="container-fluid">
+<body class="bg-white">
+  <!-- nav bar -->
+
+  <nav class="navbar navbar-expand-lg ps-3 position-fixed top-0 border-bottom border-1 z-2 border-white "
+    style="width:100vw; background: #00AE44;">
+    <div class="container-fluid ">
       <a class="navbar-brand" href="./index.html"><img src="./images/7up-logo-m.png" alt="" class="img-fluid"></a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
         aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -40,55 +44,147 @@
 
         </ul>
         <div class="navbar-nav  mb-2 mb-lg-0 d-flex flex-row justify-content-center align-items-center pe-4">
-          <a class="nav-link  p-1" aria-current="page" href="#"><img src="./images/socialIcons_facebook.png" alt=""
+          <a class="nav-link  p-1" aria-current="page"
+            href="https://www.facebook.com/checkpoint/1501092823525282/?next=https%3A%2F%2Fwww.facebook.com%2F7UP#"><img
+              src="./images/socialIcons_facebook.png" alt="" class="img-fluid icon"></a>
+
+          <a class="nav-link  p-1 " href="https://www.instagram.com/7up/"><img src="./images/socialIcons_instagram.png"
+              alt="" class="img-fluid icon"></a>
+
+          <a class="nav-link p-1" aria-current="page" href="https://in.pinterest.com/7up/"><img
+              src="./images/socialIcons_pinterest.png" alt="" class="img-fluid icon"></a>
+
+          <a class="nav-link  p-1" aria-current="page" href="https://www.tiktok.com/@7up?lang=en"><img
+              src="./images/socialIcons_tiktok.png" alt="" class="img-fluid icon"></a>
+
+          <a class="nav-link p-1" href="https://x.com/7UP"><img src="./images/socialIcons_x.png" alt=""
               class="img-fluid icon"></a>
 
-          <a class="nav-link  p-1 " href="#"><img src="./images/socialIcons_instagram.png" alt=""
-              class="img-fluid icon"></a>
-
-          <a class="nav-link p-1" aria-current="page" href="#"><img src="./images/socialIcons_pinterest.png" alt=""
-              class="img-fluid icon"></a>
-
-          <a class="nav-link  p-1" aria-current="page" href="#"><img src="./images/socialIcons_tiktok.png" alt=""
-              class="img-fluid icon"></a>
-
-          <a class="nav-link p-1" href="#"><img src="./images/socialIcons_x.png" alt="" class="img-fluid icon"></a>
-
-          <a class="nav-link   p-1" aria-current="page" href="#"><img src="./images/socialIcons_youtube.png" alt=""
-              class="img-fluid icon"></a>
+          <a class="nav-link   p-1" aria-current="page" href="https://www.youtube.com/@7upindia"><img
+              src="./images/socialIcons_youtube.png" alt="" class="img-fluid icon"></a>
         </div>
       </div>
     </div>
   </nav>
-  <div class="container-fluid px-0 d-flex align-items-center justify-content-center">
-    <div class="row mx-0">
-      <div class="col-12 px-0">
-        <img src="./images/image1.png" alt="" class="w-100 img-fluid">
+
+  <!-- /nav bar  -->
+
+  <!-- search item section -->
+
+  <section class=" " style="padding-top: 115px;">
+    <div class="container-fluid d-flex justify-content-center align-items-center  flex-column mt-5 ">
+      <div class="row w-75 d-flex  align-items-center ">
+        <div class="col-8  ">
+          <p class="fs-3 " style="color: #00AE44;">Store</p>
+        </div>
+      </div>
+      <div class="row rounded-3 d-flex justify-content-between align-items-center px-3 py-2 w-75 mt-4 "
+        style="background: rgba(235, 232, 232, 0.2)">
+        <div class="col-md-6 d-flex justify-content-between align-items-center ">
+          <p class="lh-lg text-black fw-bold" style="font-size: 14px;">Searching for results near:<br>
+            <span class="" style="color: rgb(96, 96, 96); font-size: 16px;">Kasaragod Kerala 671317 <i
+                class="bi bi-pencil"></i></span>
+          </p>
+        </div>
+
+        <div class="col-md-6 d-flex justify-content-end align-items-center p-3 gap-4">
+          <span class="fs-2"><i class="bi bi-list-task"></i></span>
+          <button class="p-2 bg-black text-white fw-bolder">Find Products</button>
+        </div>
+      </div>
+      <div class="row d-flex justify-content-end w-75 mt-5">
+        <div class="col-8 col-md-4 bg-success px-0">
+          <input class="form-control form-control-lg w-100 rounded-0 fs-6" type="text" placeholder="Search By Keywords"
+            aria-label=".form-control-lg example">
+        </div>
       </div>
     </div>
-    <div class="row position-absolute rounded-pill" style="background-color:rgba(16,82,42,0.9)">
-      <div
-        class="col-xs-8 col-md-12 d-flex flex-column align-items-center justify-content-center gap-1 gap-md-3 py-2 p-md-4 px-md-5 ">
-        <h1 class="text-white tropical-heading-font">STORE LOCATOR</h1>
-        <p class="text-white tropical-para-font mb-2">Find your favorite flavors of uptimism and keep your glass
-          half-full.</p>
-        <button class="border border-white px-md-4 py-md-2 rounded-pill bg-transparent text-white ">Find
-          Products</button>
+  </section>
+
+  <!-- /search item section -->
+
+
+  <!-- item section -->
+  <section class=" mt-5">
+    <div class="container-fluid d-flex flex-column justify-content-between align-items-center ">
+      <div class="row w-75 ">
+        <div class="col-8">
+          <p class="text-nowrap fs-6 fw-light">Select one or more products to begin.</p>
+        </div>
+      </div>
+      <div class="row w-75 mt-4  d-flex flex-column flex-md-row justify-content-between align-items-center">
+        <div class="col-8 col-md-3 text-center   mt-2"><img src="./images/7upbottel1.jpeg" alt=""
+            class="img-fluid w-75">
+        </div>
+        <div class="col-8 col-md-3  text-center  mt-2"><img src="./images/7upb2.jpeg" alt="" class="img-fluid w-75">
+        </div>
+        <div class="col-8 col-md-3  text-center mt-2"><img src="./images/7upb3.jpeg" alt="" class="img-fluid w-75">
+        </div>
+        <div class="col-8 col-md-3  text-center  mt-2"><img src="./images/7up4.jpeg" alt="" class="img-fluid w-75">
+        </div>
+      </div>
+      <div class="row w-75 mt-4 d-flex flex-column flex-md-row justify-content-between align-items-center">
+        <div class="col-8 col-md-3  text-center  mt-2"><img src="./images/7upbottel1.jpeg" alt=""
+            class="img-fluid w-75"></div>
+        <div class="col-8 col-md-3  text-center  mt-2"><img src="./images/7upb2.jpeg" alt="" class="img-fluid w-75">
+        </div>
+        <div class="col-8 col-md-3  text-center mt-2"><img src="./images/7upb3.jpeg" alt="" class="img-fluid w-75">
+        </div>
+        <div class="col-8 col-md-3  text-center  mt-2"><img src="./images/7up4.jpeg" alt="" class="img-fluid w-75">
+        </div>
+      </div>
+      <div class="row w-75 mt-4 d-flex flex-column flex-md-row justify-content-between align-items-center">
+        <div class="col-8 col-md-3  text-center  mt-2"><img src="./images/7upbottel1.jpeg" alt=""
+            class="img-fluid w-75"></div>
+        <div class="col-8 col-md-3  text-center  mt-2"><img src="./images/7upb2.jpeg" alt="" class="img-fluid w-75">
+        </div>
+        <div class="col-8 col-md-3  text-center mt-2"><img src="./images/7upb3.jpeg" alt="" class="img-fluid w-75">
+        </div>
+        <div class="col-8 col-md-3  text-center  mt-2"><img src="./images/7up4.jpeg" alt="" class="img-fluid w-75">
+        </div>
+      </div>
+      <div class="row w-75 mt-4 mb-4 d-flex flex-column flex-md-row justify-content-between align-items-center">
+        <div class="col-8 col-md-3  text-center  mt-2"><img src="./images/7upbottel1.jpeg" alt=""
+            class="img-fluid w-75"></div>
+        <div class="col-8 col-md-3  text-center  mt-2"><img src="./images/7upb2.jpeg" alt="" class="img-fluid w-75">
+        </div>
+        <div class="col-8 col-md-3  text-center mt-2"><img src="./images/7upb3.jpeg" alt="" class="img-fluid w-75">
+        </div>
+        <div class="col-8 col-md-3  text-center  mt-2"><img src="./images/7up4.jpeg" alt="" class="img-fluid w-75">
+        </div>
       </div>
     </div>
-  </div>
+  </section>
+
+  <!-- /item section -->
+
+  <!-- product operator -->
+  <section class=" mt-5 mb-5">
+    <div class="container-fluid d-flex justify-content-center align-items-center ">
+      <div class="row w-75 ">
+        <div class="col-12 text-center ">
+          <p class="text-center fs-5 fw-semibold text-success ">This portion of the website is operated by Destini
+            Product
+            Locators. This
+            entity has access to and control over personal
+            information collected on this site</p>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- /product operator -->
 
   <footer class="container-fluid pb-3 pb-md-5 pt-2" style="background-color: #3E3E3E; ">
     <div class="row pt-lg-2 fw-bold">
       <div
-        class="col-md-7 d-flex flex-column flex-lg-row justify-content-end align-items-center text-white gap-1 gap-md-4"
+        class="col-xl-7 d-flex flex-column flex-xl-row justify-content-end align-items-center text-white gap-1 gap-md-4"
         style="font-size: 12px;">
         <a href="">Privacy Policy</a>
         <a href="">CA Notice at Collection</a>
         <a href="">Do Not Sell or Share My Personal Information</a>
         <a href="">Terms of Use</a>
       </div>
-      <div class="col-md-5 d-flex justify-content-center justify-content-lg-start   text-white    gap-4"
+      <div class="col-xl-5 d-flex justify-content-center justify-content-xl-start   text-white    gap-4 "
         style="font-size: 12px;">
         <a href="">Accessibility</a>
         <a href="">Contact</a>

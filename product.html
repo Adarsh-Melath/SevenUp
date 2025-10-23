@@ -4,7 +4,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Product</title>
+  <title>PRODUCT</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
@@ -18,8 +18,9 @@
 </head>
 
 <body>
-  <nav class="navbar navbar-expand-lg ps-3">
-    <div class="container-fluid">
+  <nav class="navbar navbar-expand-lg ps-3 position-fixed top-0 border-bottom border-1 z-2 border-white "
+    style="width:100vw; background: #00AE44;">
+    <div class="container-fluid ">
       <a class="navbar-brand" href="./index.html"><img src="./images/7up-logo-m.png" alt="" class="img-fluid"></a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
         aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -40,39 +41,60 @@
 
         </ul>
         <div class="navbar-nav  mb-2 mb-lg-0 d-flex flex-row justify-content-center align-items-center pe-4">
-          <a class="nav-link  p-1" aria-current="page" href="#"><img src="./images/socialIcons_facebook.png" alt=""
+          <a class="nav-link  p-1" aria-current="page"
+            href="https://www.facebook.com/checkpoint/1501092823525282/?next=https%3A%2F%2Fwww.facebook.com%2F7UP#"><img
+              src="./images/socialIcons_facebook.png" alt="" class="img-fluid icon"></a>
+
+          <a class="nav-link  p-1 " href="https://www.instagram.com/7up/"><img src="./images/socialIcons_instagram.png"
+              alt="" class="img-fluid icon"></a>
+
+          <a class="nav-link p-1" aria-current="page" href="https://in.pinterest.com/7up/"><img
+              src="./images/socialIcons_pinterest.png" alt="" class="img-fluid icon"></a>
+
+          <a class="nav-link  p-1" aria-current="page" href="https://www.tiktok.com/@7up?lang=en"><img
+              src="./images/socialIcons_tiktok.png" alt="" class="img-fluid icon"></a>
+
+          <a class="nav-link p-1" href="https://x.com/7UP"><img src="./images/socialIcons_x.png" alt=""
               class="img-fluid icon"></a>
 
-          <a class="nav-link  p-1 " href="#"><img src="./images/socialIcons_instagram.png" alt=""
-              class="img-fluid icon"></a>
-
-          <a class="nav-link p-1" aria-current="page" href="#"><img src="./images/socialIcons_pinterest.png" alt=""
-              class="img-fluid icon"></a>
-
-          <a class="nav-link  p-1" aria-current="page" href="#"><img src="./images/socialIcons_tiktok.png" alt=""
-              class="img-fluid icon"></a>
-
-          <a class="nav-link p-1" href="#"><img src="./images/socialIcons_x.png" alt="" class="img-fluid icon"></a>
-
-          <a class="nav-link   p-1" aria-current="page" href="#"><img src="./images/socialIcons_youtube.png" alt=""
-              class="img-fluid icon"></a>
+          <a class="nav-link   p-1" aria-current="page" href="https://www.youtube.com/@7upindia"><img
+              src="./images/socialIcons_youtube.png" alt="" class="img-fluid icon"></a>
         </div>
       </div>
     </div>
   </nav>
 
-  <div class="conatainer-fluid  border-top border-white position-relative">
-    <div class="row product-banner">
-      <div class="col-12">
-
-        <img src="./images/tropical-header.png" alt="" class="w-100 img-fluid  ">
+  <section class="d-flex flex-column flex-md-row justify-content-center align-items-center pt-md-5 pt-4   "
+    style="background-color:#00AE44; ">
+    <div class="container order-2 order-md-1 mt-5 mb-5 ">
+      <div class="row d-flex justify-content-center gap-1">
+        <div class="col-3 ">
+          <img src="./images/7up-cherry-zero-sugar.png" alt="" class="imd-fluid w-100">
+        </div>
+        <div class="col-3"><img src="./images/7up-tropical.png" alt="" class="imd-fluid w-100"></div>
+        <div class="col-3"><img src="./images/7up-tropical-zero-sugar.png" alt="" class="imd-fluid w-100"></div>
       </div>
     </div>
-  </div>
+    <div
+      class="container px-0  text-white d-flex flex-column justify-content-center  align-items-start mt-4 mt-md-2 gap-4 order-1 order-md-2 "
+      style="padding-top: 70px;">
+      <h1 class=" fw-bolder px-3 product-banner-text">
+        DRINK IT<br>
+        STRAIGHT<br>
+        UP<span class="text-danger fs-1">.</span>
+      </h1>
+      <p class=" px-3 pe-md-5 mb-3 mb-md-5">7UP<sup >®</sup> products are made with high-quality ingredients. That's
+        why every flavor delivers a crisp, clean, and refreshing
+        taste. Click the cans or arrows to explore 7UP flavors.</p>
+      <div class="row mx-0 p-5 pb-0 p-md-0 product_glass">
+        <div class="col-12 px-0 col-md-6">
+          <img src="/images/product_glass.png" alt="" class="img-fluid w-100 ">
+        </div>
+      </div>
+    </div>
+  </section>
 
-
-
-  <footer class="container-fluid pb-3 pb-md-5 pt-5" style="background-color: #3E3E3E; ">
+  <footer class="container-fluid pb-3 pb-md-5 pt-2" style="background-color: #3E3E3E; ">
     <div class="row pt-lg-2 fw-bold">
       <div
         class="col-xl-7 d-flex flex-column flex-xl-row justify-content-end align-items-center text-white gap-1 gap-md-4"
